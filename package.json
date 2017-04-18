@@ -4,7 +4,9 @@
   "description": "A system for user-role based permissions management",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/test",
+    "reports" : "mocha src/test/user.js --reporter mochawesome --reporter-options reportDir=src/reports",
+    "start" : "node src/app.js"
   },
   "keywords": [
     "user",
@@ -25,7 +27,6 @@
     "url": "^0.11.0"
   },
   "devDependencies": {
-    "mochawesome": "^2.0.5",
     "supertest": "^3.0.0"
   }
 }
