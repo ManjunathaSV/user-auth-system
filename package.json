@@ -1,0 +1,31 @@
+{
+  "name": "user-auth-system",
+  "version": "1.0.0",
+  "description": "A system for user-role based permissions management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "user",
+    "auth",
+    "permissions",
+    "roles"
+  ],
+  "author": "Manjunatha S V",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mocha": "^3.2.0",
+    "mongodb": "^2.2.25",
+    "q": "^1.5.0",
+    "querystring": "^0.2.0",
+    "revalidator": "^0.3.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^2.0.5",
+    "supertest": "^3.0.0"
+  }
+}
