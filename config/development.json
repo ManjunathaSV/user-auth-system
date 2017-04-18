@@ -1,0 +1,5 @@
+{
+	"dbURL" : "mongodb://localhost/userauthsys",
+	"host" : "localhost",
+	"port" : "3000"
+}
